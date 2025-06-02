@@ -13,7 +13,7 @@ int main()
 
     int count = 0; //TO count how many words String s has;
 
-    while(ss >> word) //As long as word object is getting words form "stringstream" this loop will work; 
+    while(ss >> word)//ss give each word to the object(Word) next to him than delets the word from his storage. //As long as word object is getting words form "stringstream" this loop will work; 
     {
         cout << word << endl;
         count++; //Adding +1 each time word object prints word;
