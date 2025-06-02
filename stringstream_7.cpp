@@ -8,7 +8,7 @@ int main()
 
     cout << s << endl;
 
-    stringstream ss(s);
+    stringstream ss(s); //Print each word using stringstream;
     string word;
 
     int count = 0; //TO count how many words String s has;
